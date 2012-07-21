@@ -1,0 +1,162 @@
+AWS Newsletter - July 2012
+Dear AWS Community,
+
+Get the most up to date information about AWS re: Invent, our first global customer and partner conference to be held this November 28-29 in Las Vegas, on our newly launched website. You・ll find pricing information as well as info on tracks, sessions, speakers, and more. We・ve also been working hard to deliver new features for many of our services. AWS Support expanded its Free Tier as well as lower prices on Premium Tiers, AWS Elastic Beanstalk expanded to new regions, and we just announced the offering of a High I/O Quadruple Extra Large, SSD-based instances for Amazon EC2. Amazon CloudFront, Amazon CloudWatch, Amazon SES, Amazon EMR and Amazon VPC also announced features to help you get the most out of these services.
+
+Read this newsletter on our website
+
+Special Event
+AWS re: Invent
+News & Announcements
+Expanded free support and lower prices on premium support plans
+Introducing High I/O, SSD-based instances for Amazon EC2
+Using Amazon CloudWatch to monitor your Microsoft Windows applications on AWS
+CloudWatch metrics for EC2 status checks
+AWS Elastic Beanstalk now available in US West (Oregon) and US West (Northern California)
+AWS Elastic Beanstalk announces updated Command Line Interface
+Announcing multiple IP addresses for Amazon EC2 instances in Amazon VPC
+Amazon SES announces Easy DKIM
+Amazon DynamoDB Breaks AWS growth records
+Amazon Elastic MapReduce integrates with HBase, the MapR Distribution for Hadoop
+Announcing MFA-protected API access
+Amazon CloudFront and Amazon Route 53 announce launch of PoP in Sydney, Australia
+New software in AWS Marketplace
+Featured Customer success story: Worldreader
+Developer Resources
+AWS Partner Network News
+AWS on the Road
+Online Events
+
+Special Event
+
+AWS re: Invent
+We are excited to share more details about AWS re: Invent, our first global customer and partner conference. Join the best and the brightest developers, hottest start-ups, and visionary technology leaders in Las Vegas, November 27-29 and be part of the largest gathering of the AWS community. Public registration will open on Wednesday, July 25th.
+
+News & Announcements
+
+Check out the latest news items and announcements from AWS.
+
+Expanded free support and lower prices on premium support plans
+We announced a number of changes to AWS Support; reduced prices, expanded free support with support for health checks, chat, additional 3rd party software support, and a new automated best practice auditing service AWS Trusted Advisor. It is now easier than ever for customers of all sizes and technical abilities to draw on the deep technical experience of AWS Support engineers to help build and manage applications on top of AWS Infrastructure Services. Our new Business-level plan, which provides 24/7/365 support via phone and chat, and a 1 hour response time for email tickets is now starting at $100/month. If you are already a Business-level support subscriber and have not experienced how AWS Trusted Advisor can save your business money, improve system performance, and close security gaps, we encourage you to view your recommendations by visiting the Support Center and selecting Trusted Advisor. For more information on the features and pricing of our support offering, please visit AWS Support.
+
+Introducing High I/O, SSD-based instances for Amazon EC2
+Amazon EC2 has announced the availability of High I/O instance for Amazon EC2. High I/O instances are optimized to provide customers with very high, low latency, storage I/O performance using SSD-based, local instance storage. The first High I/O instance type, High I/O Quadruple Extra Large (hi1.4xlarge), can deliver 35 ECUs of CPU performance, has 60.5 GiB of RAM and can deliver over 120,000 4K random read IOPS across 2 * 1024 GiB SSD-based volumes. High I/O instances are idea for databases, and are especially well suited for NoSQL databases like Cassandra and MongoDB. To learn more about High I/O instances and their specifications, please visit the EC2 instance page.
+
+Using Amazon CloudWatch to monitor your Microsoft Windows applications on AWS
+You can now use Amazon CloudWatch to monitor your own custom application and instance metrics for Amazon EC2 instances running Microsoft Windows Server. Customers can now refer to and use a sample set of Windows PowerShell scripts to perform activities such as:
+Collect metrics related to system memory usage and send them to CloudWatch.
+Collect metrics related to disk usage and send them to CloudWatch.
+Collect metrics from PerfMon counters and send them to CloudWatch.
+Query CloudWatch and display the most recent utilization statistics for the instance it was run on. Some sample scripts are available to download. To learn more about how to use the scripts, please visit "Amazon CloudWatch Monitoring Scripts for Windows" in the Amazon CloudWatch Developer Guide.
+
+CloudWatch metrics for EC2 status checks
+We just announced availability of CloudWatch metrics for EC2 status checks. These new CloudWatch metrics let you view graphs, analyze history, and set alarms on your EC2 instance's status check results. The metrics are free of charge with every EC2 instance and are automatically enabled with free EC2 basic monitoring. CloudWatch metrics for EC2 status checks can be used with CloudWatch alarms to automatically notify you if a status check has detected a problem with your instance. To learn more about CloudWatch metrics for EC2 status checks, see "Monitoring Your Instances and Volumes with CloudWatch".
+
+AWS Elastic Beanstalk now available in US West (Oregon) and US West (Northern California)
+AWS Elastic Beanstalk is now available in the US West (Oregon) and US West (Northern California) regions. Developers can also leverage the service in the US East (North Virginia), Asia Pacific (Tokyo), and EU (Ireland) regions. Elastic Beanstalk currently supports Java applications running on the familiar Apache Tomcat stack, .NET applications running on IIS 7.5, and PHP applications running on the Apache HTTP Server stack. With Elastic Beanstalk, you retain full control over the AWS resources powering your application, such as Amazon EC2 instances, Elastic Load Balancing, and Auto Scaling. To get started, visit the AWS Elastic Beanstalk Developer Guide.
+
+AWS Elastic Beanstalk announces updated Command Line Interface
+We are excited to welcome eb (pronounced ee-bee) to the family of Elastic Beanstalk command line tools. Eb simplifies development and deployment tasks from the terminal on Linux, Mac OS, and Microsoft Windows. Getting started is as easy as running eb init, eb start, and git aws.push. Eb guides you through a few questions to configure your Elastic Beanstalk environment. If your source code is managed by Git, eb automatically configures Git to deploy to your Elastic Beanstalk environment. To give eb a try, download the updated Command Line Interface. To learn more about eb, go to "Get Started" in the AWS Elastic Beanstalk Developer Guide.
+
+Announcing multiple IP addresses for Amazon EC2 instances in Amazon VPC
+We'd like to introduce multiple IP addresses for Amazon EC2 instances in Amazon VPC. Instances in a VPC can be assigned one or more private IP addresses, each of which can be associated with its own elastic IP address. With this feature you can host multiple websites, including SSL websites and certificates, on a single instance where each site has its own IP address. Private IP addresses and their associated elastic IP addresses can be moved to other network interfaces or instances, assisting with application portability across instances. To learn more about multiple IP addresses, visit the Amazon VPC user guide. For more information about pricing for additional elastic IP addresses on an instance, please see the Amazon EC2 Pricing page.
+
+Amazon SES announces Easy DKIM
+Amazon Simple Email Service (Amazon SES) is excited to announce Easy DKIM, an easy way to DKIM-sign the email you send via Amazon SES. Previously, you had to DKIM-sign your messages yourself and exclude certain headers, which could be challenging. With Easy DKIM, Amazon SES takes care of DKIM-signing your email for you, and all you have to do is add some CNAME records to your DNS and enable signing. This feature is also integrated with Amazon Route 53 so you can set up Easy DKIM on any domain you manage with Amazon Route 53 with a few clicks of your mouse. For more information, please refer to the Amazon SES Developer Guide.
+
+Amazon DynamoDB Breaks AWS growth records
+Amazon DynamoDB is the fastest-growing new service in the history of AWS! Learn about how this service is helping power ad campaigns, Facebook apps, social games and more. Read about this incredible growth from the perspective of Amazon.com CTO Werner Vogels and customers like Earth Networks and Halfbrick Studios on Werner's blog. If you would like to try out Amazon DynamoDB, you can get started for free using DynamoDB's free tier. Visit the DynamoDB detail page to learn more.
+
+Amazon Elastic MapReduce integrates with HBase, the MapR Distribution for Hadoop
+We're excited to announce support for running Apache HBase 0.92.0 on Amazon Elastic MapReduce, bringing real-time data access to Hadoop in the cloud. HBase is a distributed, column-oriented data store that provides strictly consistent reads and writes, automatic sharding of tables, and efficient storage of large quantities of sparse data. It is built to work seamlessly with Hadoop, sharing its file system and serving as the input and output for MapReduce jobs run in Hadoop. In addition, HBase on EMR provides customers the ability to perform full and incremental backups to Amazon S3 with the option of guaranteed consistency. For more information, please visit "Running HBase" in the EMR Developer's Guide. 
+
+Customers can also now run the MapR Distribution for Hadoop on top of Amazon Elastic MapReduce. MapR offers enterprise-focused features for Hadoop such as high availability, data snapshotting, cluster mirroring across AZs, and NFS mounts. Combined with Amazon Elastic MapReduce's managed Hadoop environment, seamless integration with other AWS services, and hourly pricing with no upfront fees or long-term commitments, Amazon EMR with the MapR Distribution for Hadoop offers customers a powerful tool for generating insights from their data. Please visit the MapR on EMR detail page for more details.
+
+Announcing MFA-protected API access
+We're pleased to announce MFA-protected API access, a new feature of AWS Multi-Factor Authentication (MFA). You can now enforce MFA authentication for AWS service APIs via AWS Identity and Access Management (IAM) policies. This provides an extra layer of security over powerful operations that you designate, such as terminating Amazon EC2 instances or reading sensitive data stored in Amazon S3.
+
+For more information, please visit the AWS Blog and the documentation.
+
+Amazon CloudFront and Amazon Route 53 announce launch of PoP in Sydney, Australia
+We're excited to announce the launch of our new edge location in Sydney Australia to serve Amazon CloudFront and Amazon Route 53. With the launch in Sydney, our first edge location in Australia, Amazon CloudFront and Amazon Route 53 now have a total of 34 edge locations worldwide. Each new edge location helps lower latency and improves performance for your end users. To learn more about Amazon CloudFront and Amazon Route 53, please visit the detail pages for each service.
+
+New software in AWS Marketplace
+AWS Marketplace is an online store where customers can find and buy software that runs in the AWS cloud. Customers can pay by the hour and launch software with 1-Click. We continue to add highly requested products. Some highlights are Porticor's VPD Appliances and Stingray Traffic Manager from Riverbed software. We also added a listing for hosted Alfresco, provided by Alfresco, as well as new versions of Acunu Reflex, now with Standard, Premium, and Enterprise level support.
+
+Featured Customer success story: Worldreader
+Worldreader wants to raise enough money to send 1 million e-books to children in Africa. Working with AWS and Transcend Computing, Worldreader had its website up and running in 3 days without having to sacrifice valuable donations to make an investment in costly infrastructure. Learn more by reading the full Worldreader story.
+
+Developer Resources
+
+Check out these developer resources to help you build and grow on AWS.
+
+Getting Started with Windows Web Applications in the AWS Cloud (Video Series)
+The video series "Getting Started with Windows Web Applications in the AWS Cloud" provides a step-by-step walkthrough of deploying a sample .NET application using several key AWS services and following best practices.
+
+Getting Started with Linux Web Applications in the AWS Cloud (Video Series)
+The video series "Getting Started with Linux Web Applications in the AWS Cloud" provides a step-by-step walkthrough of deploying a sample Drupal application on Linux using several key AWS services and following best practices.
+
+
+AWS Partner Network News
+
+Check out the latest announcements from the AWS Partner Network.
+
+Sumo Logic Free delivers enterprise class operational insights from machine data at no cost
+Sumo Logic, the next generation log management and analytics company, has announced general availability of Sumo Logic Free, the first and only enterprise-class free log management and analytics service. The free version of Sumo Logic・s cloud-based service on AWS offers full functionality, including distributed search, analytics, monitoring and alerting, and role-based access controls, with no third-party hardware or software required to run the service. You can sign up instantly on the Sumo Logic website.
+
+Java EE6 Full Profile in the cloud - Only on Red Hat's OpenShift PaaS
+If you are a developer looking to exploit the latest features of the Java EE6 Full Profile in the cloud, Red Hat's OpenShift Platform-as-a-Service is the first and only to offer support for features like: CDI, JPA, JMS, JTA, JAX-RS, Servlets, JavaServer Faces and Pages. OpenShift makes it easy to leverage the power of Java and Red Hat Enterprise Linux on Amazon EC2 by delivering an open source application platform that integrates with your favorite tools including Eclipse, Jenkins, Maven and Git. Sign up today and get access to 1.5 GB of RAM and 3 GB of storage for free. 
+
+SAP Sapphire video: Inside the Ecosystem - SAP on AWS
+Hear insights from SAP partners on how to unlock the value of your SAP landscapes using AWS. Solution provider, EMBI, leverages health care operations, data management, and business intelligence toolsets on the AWS cloud computing platform. This solution provides web-based, on-demand dashboards and key performance metrics to manage hospital emergency departments' operations. The video also discusses how EMBI worked with AWS partner Decision First Technologies to implement this solution and offer it on the AWS Marketplace. Video features Scott Richards, CEO & Principal of EMBI, Patrick Nesmith, Executive Director, Client Development at Decision First Technologies, and Terry Wise, Director or Business Development for AWS. Watch the video here.
+
+
+Online Events
+
+Learn more about AWS by attending an upcoming webinar or online event.
+
+The AWS Report
+AWS Senior Evangelist Jeff Barr recently posted three new episodes of The AWS Report:
+
+Jeff Aden, CEO of 2ndWatch
+Tom Erickson, CEO of Acquia
+Dan Summa, CEO of Kindling
+If you are interested in appearing on a future episode, please email awsreport@amazon.com.
+
+AWS Cloud Storage for the Enterprise - Presentations available
+On June 6, AWS hosted the ：AWS Cloud Storage for the Enterprise； event in New York. Industry expert presentations and an extensive set of AWS Solution Provider partners were in attendance, giving IT and Storage decision makers the ability to find the information they needed all in one place.
+
+How to Extend Your Datacenter into AWS
+July 25, 9:00am PST / 12:00pm EST
+AWS and 2nd Watch would like to invite you to attend this live webinar where you will learn more about how to design and implement an extension of your existing datacenter on AWS including architecture & design patterns, VPC setup & configuration, and other networking & OS considerations.
+
+Building Better Search For Wikipedia: How We Did It Using Amazon CloudSearch
+July 26, 10:00am PST
+Join this webinar to learn how Paul Nelson, CTO and search guru at Search Technologies, implemented improved search capabilities for Wikipedia using Amazon CloudSearch, a fully-managed search service in the AWS cloud. See how Wikipedia search can now deliver a richer experience that includes faceted navigation, better and more relevant results, and an improved user interface. Topics that will be discussed include data acquisition and clean-up, indexing, handling queries, relevancy ranking, and building the search user interface.
+
+AWS for the Retail Industry
+July 26, 10:00am BST
+Join Amazon Web Services and Adam Bidwell, eCommerce Manager, Kurt Geiger to learn more about how retailers are using AWS to carry out a number of business critical functions. This complementary webinar will discuss in detail Kurt Geiger's experience of using AWS to run their Magento eCommerce engine and Ryan Shuttleworth, Technology Evangelist, AWS, will cover an overview of AWS along with a number case studies of how retail customers are implementing AWS to run their business.
+
+Best Practices for Getting Started in the AWS Cloud
+August 1, 10:00am BST
+Getting started with Amazon Web Services (AWS) is fast and simple. This complimentary webinar will outline best practice guidance from many customers and the Amazon Web Services team, helping you gain advantage as your implement your projects in AWS. We will also cover how you can ensure your applications are simple to manage, resilient and cost effective and how to set up accounts and use consolidated billing.
+
+Running Enterprise Workloads on AWS with Oracle-as-a-Service by Datapipe
+August 8, 10:00am PST / 1:00pm EST
+Attend this session to learn more about Datapipe's Oracle-as-a-Service offering on AWS which provides customers with a single vendor bill for a low latency, high performance solution in a secure hybrid environment with seamless integration between AWS & Datapipe hosted environments.
+
+Building Big Data Apps with Amazon EMR & Amazon DynamoDB
+August 02, 11:00am CST
+AWS and Think Big Analytics would like to invite you to attend this live webinar where you will learn more about big data technologies like Hadoop and NoSQL databases. We will also discuss use cases that are applicable to the enterprise and how to build big data solutions on the AWS Cloud using services like Amazon Elastic MapReduce, Amazon DynamoDB and Amazon S3. 
+Accelerating SharePoint for Mobile Solutions on the AWS Cloud
+August 15, 10:00am PST / 1:00pm EST
+In this session, Slalom Consulting will demonstrate how they can quickly and securely mobilize SharePoint content with their SharePoint Mobile Accelerator. The Accelerator is a framework which allows for rapid development of custom iPhone & iPad applications to enable your growing mobile workforce while maintaining corporate security standards.
+Moving Oracle Backup and Restore to AWS
+August 15, 11:00am PST / 7:00pm GMT
+Attend this live web event to learn how Amazon Web Services can simplify backup and recovery of your Oracle databases, gaining significant time, lowering cost, and increasing durability over a traditional on-premise solution. Best of all, it requires extremely little alteration to existing procedures. The presenters include speakers from both AWS and Apps Associates, a deeply experienced AWS Advanced Consulting Partner.
+
+Oracle E-Business Suite, Putting Business Apps in the Cloud
+August 29, 11:00am PST / 7:00pm GMT
+This live web event will showcase the benefits of running Oracle E-Business Suite on Amazon Web Services. Utilizing a bring-your-own-license approach, you can gain immediate efficiencies of the cloud for your business critical applications. The presentation will include speakers from both AWS and Apps Associates, a deeply experienced AWS Advanced Consulting Partner.
+
