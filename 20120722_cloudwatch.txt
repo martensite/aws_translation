@@ -1,7 +1,8 @@
-r Amazon EC2 Customer,
+Dear Amazon EC2 Customer,
+//親愛的Amazon EC2 顧客，
 
 We are excited to announce the availability of Amazon CloudWatch metrics for Amazon EC2 status checks. These new CloudWatch metrics let you view graphs, analyze history and set alarms on your instance’s status check results.
-
+//我們很興奮地宣佈一項新功能：為檢查Amazon EC2 伺服器狀態的Amazon。loudWatch評量
 Free of Charge – Amazon CloudWatch metrics for Amazon EC2 status checks are free of charge with every EC2 instance and are included with Basic Monitoring for Amazon EC2. You will have up to fourteen days of status check history for all of your instances.
 Automatically Enabled – Amazon CloudWatch metrics for Amazon EC2 status checks have already been enabled for all of your running instances and are automatically enabled for any new instances you launch.
 CloudWatch Alarm Support – Amazon CloudWatch metrics for Amazon EC2 status checks can be used with CloudWatch alarms to automatically notify you if a status check has detected a problem with your instance (additional charges may apply for CloudWatch alarms usage.)
